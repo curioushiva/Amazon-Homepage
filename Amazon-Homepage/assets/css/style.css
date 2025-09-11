@@ -1,0 +1,336 @@
+/* Amazon Website Clone - by @Curioushiva (taking help from apna college lectures)  */
+
+
+/* Universal Values*/
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+
+/* HEADER */
+/* NAVBAR SECTION START*/
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction : row is diffault direction  */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Box ANIMATION - HOVER */
+.hover-border {
+    border: 2px solid transparent;
+}
+
+.hover-border:hover {
+    border: 1.5px solid white
+}
+
+
+/* box-1 */
+.ama-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-size: cover;
+    background-image: url("../images/amazon_logo.png");
+    width: 100%;
+    height: 50px;
+}
+
+
+/* box-2 */
+.loc-first-text {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.loc-sec-text {
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.loc-icon {
+    display: flex;
+}
+
+/* box-3 */
+.nav-searchbox {
+    display: flex;
+    background-color: coral;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    border-radius: 4px 0px 0px 4px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: none;
+}
+
+.searchbox-input {
+    font-size: 1rem;
+    width: 500px;
+    border: none;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #eea342;
+    border-radius: 0px 4px 4px 0px;
+
+}
+
+/* animation for the search-box-hover */
+.nav-searchbox:hover {
+    border: 2px solid #eea342;
+}
+
+
+/* Skipping Language Box */
+
+/* box-4 */
+.sign-first {
+    font-size: 0.7rem;
+}
+
+.sign-second {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* box-5 */
+.return-first {
+    font-size: 0.7rem;
+}
+
+.return-second {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* Box-6 */
+
+.nav-cart-box i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* NAVBAR END */
+
+
+/* PANEL SECTION START*/
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.panel-options {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+
+.panel-options p {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* PANEL END */
+/* HEADER END */
+
+
+
+/* MAIN */
+/* HERO SECTION START */
+.hero-section {
+    background-image: url("../images/hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.hero-text {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 50px;
+    width: 97%;
+    font-weight: 400;
+}
+
+.hero-text a {
+    color: #007185;
+}
+
+/* HERO END  */
+
+/* SHOPPING SECTION START  */
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.box-img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    height: 300px;
+}
+
+.box-content a {
+    color: #007185;
+    text-decoration: none;
+}
+
+/* SHOPPING END  */
+/* MAIN END  */
+
+
+/* FOOTER */
+/* FOOTER PANELS  */
+.footer {
+    margin-top: 15px;
+}
+
+/* Underline-hover animation  */
+.hover-underline {
+    text-decoration: underline transparent;
+}
+
+.hover-underline:hover {
+    text-decoration: underline;
+}
+ /* panel-1  */
+.footer-panel-1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+/* panel-2  */
+.footer-panel-2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-panel-2 a {
+    color: #dddddd;
+    text-decoration: none;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.footer-panel-2 ul {
+    margin-top: 15px;
+}
+
+/* panel-3  */
+.footer-panel-3 {
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-ama-logo {
+    background-size: cover;
+    background-image: url("../images/amazon_logo.png");
+    width: 100px;
+    height: 50px;
+}
+
+/* panel-4  */
+.footer-panel-4 {
+    background-color: #0f1111;
+    height: 80px;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.footer-panel-4 a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.pages {
+    padding-top: 25px;
+}
+
+.copyright {
+    padding-top: 5px;
+}
+
+/* PANEL END  */
+/* FOOTER END  */
+
+
+/* End of this amazon.com clone - by @Curioushiva (taking help from apna college lectures) */
